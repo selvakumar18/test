@@ -1,0 +1,40 @@
+<html>
+
+<body style="background-color:YELLOW;">
+<head>
+<h1>PATIENT!!! REGISTERATION</h1>
+<style>
+form { 
+margin:100px; 
+width:250px;
+
+
+}
+</style>
+<form name="selva" method="post" action="phpindex.php"  >  
+Patient Name: <input type="text" name="name"><br/>  
+gender:<input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br>
+blood group:<input type="checkbox" name="bgroup" value="A+">A+
+<input type="checkbox" name="bgroup" value="B+"> b+
+<input type="checkbox" name="bgroup" value="o+" >o+ 
+<input type="checkbox" name="bgroup" value="A-"> A-
+<input type="checkbox" name="bgroup" value="B-"> B-
+<input type="checkbox" name="bgroup" value="AB-">AB-<br>
+city:<input type="text" name="city"><br/>  
+pho no:<input type="text" name="phono"><br/>  
+age:<input type="text" name="age"><br/>  
+Doctor name:<input type="text" name="dname"><br/>  
+disease  <select name="disease">
+  <option value="Fever">Fever</option>
+  <option value="Cold">cold</option>
+  <option value="Other">other</option>
+</select></br>
+<input type="submit" value="submit" >  
+<input type="reset" value="reset" >  
+
+</form>
+</head>  
+</body>
+</html>  
